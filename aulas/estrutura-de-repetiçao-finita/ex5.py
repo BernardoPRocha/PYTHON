@@ -1,5 +1,7 @@
-print("Digite a média de matematica de todos os alunos")
-for notas in range(0,31,1):
-    float(input())
-resul = (notas + notas) * 29
-print(resul)
+soma = nota = 0.0
+for i in range (1,31,1):
+    print ("Digite uma nota")
+    nota = float(input())
+    #soma = soma + nota
+    soma += nota
+print("A média das notas é:", soma/30)
