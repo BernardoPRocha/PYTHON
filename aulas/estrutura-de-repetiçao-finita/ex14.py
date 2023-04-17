@@ -1,8 +1,8 @@
-pesoTotal = 0 
-print("Digite o peso de um hipopótamo")
-peso = float(input())
-while pesoTotal < 100000:
-    pesoTotal += float(peso)
-    print("Digite um peso")
+somapeso = gordo = 0
+while somapeso <= 100000:
+    print("Digite o peso do hipopótamo")
     peso = float(input())
-print(f" Nossa :{pesoTotal}")
+    if peso > gordo :
+        gordo = peso
+        somapeso += peso
+print(f" O maior peso é {gordo}")
