@@ -1,4 +1,5 @@
-#Bernardo Rocha RM99209
+
+
 pokemons = (
     ("Pikachu", "Elétrico"),
     ("Bulbasaur", "Planta"),
